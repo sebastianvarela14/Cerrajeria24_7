@@ -920,34 +920,28 @@ button {
 
 .category-card {
     position: relative;
-
     min-height: 440px;
-
     border-radius: 22px;
-
     overflow: hidden;
-
     background-size: cover;
     background-position: center;
-
     isolation: isolate;
 }
 
 .category-residential {
-    background-image: url("../img/residencial.jpg");
+    background-image: url("../img/hogar.png");
 }
 
 .category-automotive {
-    background-image: url("../img/automotriz.jpg");
+    background-image: url("../img/vehiculo.png");
 }
 
 .category-commercial {
-    background-image: url("../img/comercial.jpg");
+    background-image: url("../img/negocio.png");
 }
 
 .category-card::before {
     content: "";
-
     position: absolute;
     inset: 0;
 
